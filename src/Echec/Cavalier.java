@@ -9,4 +9,10 @@ public class Cavalier extends Piece{
 	public void bouger(int x, int y) {
 			
 		}
+	
+	public String toString() {
+		String str = "Cav";
+		str += this.getJoueur().getCol();
+		return str;
+	}
 }

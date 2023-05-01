@@ -9,11 +9,13 @@ public class Main {
 		Joueur j1 = new Joueur("j1", false);
 		Joueur j2 = new Joueur("j2", true);
 		Plateau2 a = new Plateau2(j1, j2);
-		Piece b = new Roi(j1, 1,1);
 		
-		a.init();
 		
-		System.out.println(a);
+		Partie g = new Partie(j1, j2);
+		
+		g.lancerUnePartie();
+		
+	
 		
 	}
 

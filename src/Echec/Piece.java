@@ -49,6 +49,10 @@ public abstract class Piece {
 		return j;
 	}
 	
+	public boolean getAlive() {
+		return isAlive;
+	}
+	
 	@Override
 	public String toString() {
 		if(name == null) {

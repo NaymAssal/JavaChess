@@ -6,7 +6,13 @@ public class Fou extends Piece{
 		super(j, x, y);
 	}
 	
-public void bouger(int x, int y) {
+	public void bouger(int x, int y) {
 		
+	}
+	
+	public String toString() {
+		String str = "Fou";
+		str += this.getJoueur().getCol();
+		return str;
 	}
 }
